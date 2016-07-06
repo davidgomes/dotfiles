@@ -24,3 +24,4 @@ very easily.
 
 11. Install Caffeine.
 12. Log In with my Apple account and install Airmail 3.
+13. defaults write com.apple.screencapture location ~/Pictures
