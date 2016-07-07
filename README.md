@@ -19,9 +19,7 @@ very easily.
 8. Install Homebrew.
 9. Install Google Chrome Beta.
 10. Install Scroll Reverser and it set up like this:
-
 (todo image)
-
 11. Install Caffeine.
 12. Log In with my Apple account and install Airmail 3.
 13. defaults write com.apple.screencapture location ~/Pictures
