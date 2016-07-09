@@ -23,3 +23,5 @@ very easily.
 11. Install Caffeine.
 12. Log In with my Apple account and install Airmail 3.
 13. defaults write com.apple.screencapture location ~/Pictures
+14. Define the shortcut to move to next window inside same app according to this link
+http://superuser.com/questions/299241/in-mac-os-what-is-the-keyboard-shortcut-to-switch-between-windows-of-the-same-a
