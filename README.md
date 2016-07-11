@@ -1,8 +1,8 @@
-# OS X Dotfiles
+# macOS Dotfiles
 
-These are my OS X dotfiles.
+These are my macOS dotfiles.
 
-## Setting up OS X
+## Setting up macOS
 
 This is a list of things I have todo when setting up a new OS X system.
 I decided to write it all here because I forget about many of these things
@@ -25,3 +25,4 @@ very easily.
 13. defaults write com.apple.screencapture location ~/Pictures
 14. Define the shortcut to move to next window inside same app according to this link
 http://superuser.com/questions/299241/in-mac-os-what-is-the-keyboard-shortcut-to-switch-between-windows-of-the-same-a
+15. Set up Gestures according to this image:
