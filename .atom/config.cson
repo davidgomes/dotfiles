@@ -1,0 +1,43 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "3f305c42-046e-49f2-89d1-616a75c7673d"
+  "autoclose-html": {}
+  "block-cursor":
+    global:
+      blinkOn:
+        backgroundColor:
+          red: 254
+          green: 253
+          blue: 255
+          alpha: 1
+  core:
+    automaticallyUpdate: false
+    disabledPackages: [
+      "atom-beautify"
+      "metrics"
+    ]
+  editor:
+    fontFamily: "SF Mono"
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabType: "soft"
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "29c720a2-5708-3b21-a6c5-e421c600459b"
+  "isotope-ui": {}
+  linter:
+    showErrorPanel: false
+  "linter-clang": {}
+  "linter-jshint": {}
+  metrics:
+    userId: "29a79d3fa9a7e23932a5c1e8494e7bff1a4d1da3"
+  minimap: {}
+  "one-dark-ui": {}
+  react: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
