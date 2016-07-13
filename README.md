@@ -15,6 +15,7 @@ very easily.
 5. Get Alfred and set it up under Command+Space with Spotlight in Alt+Space.
 6. Get Emacs and set it up with the configuration under my .emacs.d repository.
 6.1. Run M-x install-missing-packages to get the packages I need.
+6.2. Run M-x toggle-fullscreen to get the sweet fullscreen (just like before OS X Lion).
 7. Get Atom and set it up with the configuration in this repository.
 8. Install Homebrew.
 9. Install Google Chrome Beta.
