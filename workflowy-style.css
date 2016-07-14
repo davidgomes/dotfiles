@@ -1,37 +1,33 @@
 #header {
-   display: none;
+    display: none;
 }
-
 body {
-    background-color: #FCFCFA;   
+    background-color: #FCFCFA;
 }
-
 .project .task .highlighted {
     background-color: transparent;
 }
-
 .page {
     border: none;
-   background-color: #FCFCFA;
+    background-color: #FCFCFA;
 }
-
 #getMoreSpaceButtonTopLeft {
-   display: none;
+    display: none;
 }
-
 .pageStar {
-   display: none;
+    display: none;
 }
-
 .proPitch {
-   display: none;
+    display: none;
 }
-
 #bottomLinks {
-   display: none;
+    display: none;
+}
+#pageContainer {
+    margin-bottom: 3%;
+    font-family: Courier;
 }
 
-#pageContainer {
-   margin-bottom: 3%;
-   font-family: Courier;
+#getMoreSpaceButtonTopRight {
+    display: none;
 }
