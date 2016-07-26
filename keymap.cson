@@ -4,5 +4,18 @@
   'ctrl-shift-tab ^ctrl': 'unset!'
   'ctrl-shift-tab': 'pane:show-previous-item'
 
+'body':
+  'ctrl-shift-left': 'editor:select-to-previous-subword-boundary'
+  'ctrl-shift-right': 'editor:select-to-next-subword-boundary'
+  'ctrl-left': 'editor:move-to-previous-subword-boundary'
+  'ctrl-right': 'editor:move-to-next-subword-boundary'
+
 '.editor':
   'cmd-l': 'go-to-line:toggle'
+  'ctrl-up': 'editor:move-to-beginning-of-previous-paragraph'
+  'ctrl-up': 'editor:move-to-beginning-of-previous-paragraph'
+  'ctrl-down': 'editor:move-to-beginning-of-next-paragraph'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-shift-up': 'editor:select-to-beginning-of-previous-paragraph'
+  'ctrl-shift-down': 'editor:select-to-beginning-of-next-paragraph'
