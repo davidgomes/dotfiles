@@ -3,8 +3,6 @@
   'ctrl-tab': 'pane:show-next-item'
   'ctrl-shift-tab ^ctrl': 'unset!'
   'ctrl-shift-tab': 'pane:show-previous-item'
-
-'body':
   'ctrl-shift-left': 'editor:select-to-previous-subword-boundary'
   'ctrl-shift-right': 'editor:select-to-next-subword-boundary'
   'ctrl-left': 'editor:move-to-previous-subword-boundary'
