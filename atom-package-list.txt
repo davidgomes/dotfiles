@@ -1,0 +1,11 @@
+advanced-open-file@0.16.3
+bliss-monokai-ui@0.2.0
+block-cursor@0.13.1
+emacs-word-movement@0.1.0
+goto@1.7.1
+gruvbox@1.0.5
+monokai-slate@0.5.0
+move-by-paragraph@2.0.1
+slontech-syntax@0.10.2
+
+
