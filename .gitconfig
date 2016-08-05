@@ -5,3 +5,6 @@
 	linenumber = true
 [alias]
 	ls = ls-files
+
+[core]
+	editor = 'vim'
