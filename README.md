@@ -27,3 +27,7 @@ very easily.
 14. Define the shortcut to move to next window inside same app according to this link
 http://superuser.com/questions/299241/in-mac-os-what-is-the-keyboard-shortcut-to-switch-between-windows-of-the-same-a
 15. Set up Gestures (3 finger to drag, 4 finger to change workspace, etc.)
+16. Install Docker
+17. Install RecordIt
+18. Add Cmd-\` for switching windows inside app
+19. Install VS Code and apply config in this repository
