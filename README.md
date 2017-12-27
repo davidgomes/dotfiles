@@ -20,11 +20,10 @@ very easily.
 7. Get Atom and set it up with the configuration in this repository.
 8. Install Homebrew.
 9. Install Google Chrome Beta.
-10. Install Scroll Reverser and it set up like this:
-(todo image)
+10. Install Scroll Reverser and it set according to `reverser1` and `reverser2` images in this repository.
 11. Install Caffeine.
 12. Log In with my Apple account and install Airmail 3.
 13. defaults write com.apple.screencapture location ~/Pictures
 14. Define the shortcut to move to next window inside same app according to this link
 http://superuser.com/questions/299241/in-mac-os-what-is-the-keyboard-shortcut-to-switch-between-windows-of-the-same-a
-15. Set up Gestures according to this image:
+15. Set up Gestures (3 finger to drag, 4 finger to change workspace, etc.)
