@@ -81,5 +81,9 @@
     {
         "key": "cmd+p",
         "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+l",
+        "command": "workbench.action.gotoLine"
     }
 ]
