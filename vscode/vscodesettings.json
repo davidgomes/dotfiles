@@ -6,10 +6,11 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "editor.cursorStyle": "block",
-    "reason.codelens.enabled": false,
+    /*"reason.codelens.enabled": false,*/
     "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 14,
     "workbench.colorTheme": "Ayu Mirage",
     "javascript.validate.enable": false,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "explorer.autoReveal": false
 }
