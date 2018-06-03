@@ -6,11 +6,24 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "editor.cursorStyle": "block",
-    /*"reason.codelens.enabled": false,*/
+    "reason.codelens.enabled": false,
     "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 14,
+    "editor.fontSize": 12,
     "workbench.colorTheme": "Ayu Mirage",
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.activeBackground": "#f2f2f2"
+    },    
+    "explorer.openEditors.visible": 0,
     "javascript.validate.enable": false,
-    "workbench.startupEditor": "none",
-    "explorer.autoReveal": false
+    "workbench.activityBar.visible": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.autoReveal": false,
+    "window.titleBarStyle": "native",
+    "reason.diagnostics.tools": [
+        "bsb"
+    ],
+    "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+    "search.location": "panel",
+    "git.confirmSync": false,
+    "telemetry"
 }
