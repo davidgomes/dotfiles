@@ -175,6 +175,8 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id "pamixer -i 5 --allow-boost; p
 bindsym XF86AudioLowerVolume exec --no-startup-id "pamixer -d 5 --allow-boost; pkill -RTMIN+1 i3blocks"
 bindsym XF86AudioMute exec --no-startup-id "pamixer -t; pkill -RTMIN+1 i3blocks"
 
+bindsym XF86AudioMicMute exec --no-startup-id "if amixer get Capture | grep '\[off\]'; then amixer set Capture cap; else amixer set Capture nocap; fi"
+
 # Touchpad controls
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
