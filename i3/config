@@ -171,8 +171,8 @@ bar {
 exec "~/i3_startup.sh"
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id "pamixer -i 5 --allow-boost; pkill -RTMIN+1 i3blocks"
-bindsym XF86AudioLowerVolume exec --no-startup-id "pamixer -d 5 --allow-boost; pkill -RTMIN+1 i3blocks"
+bindsym XF86AudioRaiseVolume exec --no-startup-id "pamixer -i 10 --allow-boost; pkill -RTMIN+1 i3blocks"
+bindsym XF86AudioLowerVolume exec --no-startup-id "pamixer -d 10 --allow-boost; pkill -RTMIN+1 i3blocks"
 bindsym XF86AudioMute exec --no-startup-id "pamixer -t; pkill -RTMIN+1 i3blocks"
 
 bindsym XF86AudioMicMute exec --no-startup-id "if amixer get Capture | grep '\[off\]'; then amixer set Capture cap; else amixer set Capture nocap; fi"
