@@ -1,0 +1,11 @@
+.editor-actions .action-label.icon.toolbar-toggle-more {
+  display: none !important;
+}
+
+.editor-actions .menu-item-action-item-icon-1,
+.menu-item-action-item-icon-2,
+.menu-item-action-item-icon-3,
+.menu-item-action-item-icon-4,
+.menu-item-action-item-icon-5 {
+  display: none !important;
+}

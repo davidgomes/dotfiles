@@ -2,28 +2,39 @@
     "window.zoomLevel": 1,
     "editor.formatOnSave": false,
     "editor.minimap.enabled": false,
-    "workbench.editor.showTabs": true,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "editor.cursorStyle": "block",
     "reason.codelens.enabled": false,
-    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 12,
-    "workbench.colorTheme": "Ayu Mirage",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Input Mono Narrow",
+    "workbench.colorTheme": "Night Owl",
     "workbench.colorCustomizations": {
         "editorIndentGuide.activeBackground": "#f2f2f2"
-    },    
+    },
+    "window.titleBarStyle": "native",
     "explorer.openEditors.visible": 0,
     "javascript.validate.enable": false,
-    "workbench.activityBar.visible": true,
+    // "javascript.nameSuggestions": false,
+    "workbench.activityBar.visible": false,
     "workbench.startupEditor": "newUntitledFile",
     "explorer.autoReveal": false,
-    "window.titleBarStyle": "native",
     "reason.diagnostics.tools": [
         "bsb"
     ],
     "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
     "search.location": "panel",
     "git.confirmSync": false,
-    "telemetry"
+    "telemetry.enableTelemetry": false,
+    "window.menuBarVisibility": "hidden",
+    "keyboard.dispatch": "keyCode",
+    "scrolloff.scrolloff": 7,
+    "workbench.statusBar.feedback.visible": false,
+    "terminal.integrated.scrollback": 1000000000,
+    "terminal.integrated.rendererType": "dom",
+    "window.title": "${folderName} ${separator} ${activeEditorMedium} ${dirty} ${separator} ${appName}",
+    "vscode_custom_css.imports": [
+        "file:///home/gomes/src/dotfiles/vscode/custom.css"
+    ],
+    "vscode_custom_css.policy": true,
 }

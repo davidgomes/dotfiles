@@ -1,97 +1,114 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "cmd+1",
-        "command": "workbench.action.openEditorAtIndex1"
-    },
-    {
-        "key": "cmd+2",
-        "command": "workbench.action.openEditorAtIndex2"
-    },
-    {
-        "key": "cmd+3",
-        "command": "workbench.action.openEditorAtIndex3"
-    },
-    {
-        "key": "cmd+4",
-        "command": "workbench.action.openEditorAtIndex4"
-    },
-    {
-        "key": "cmd+5",
-        "command": "workbench.action.openEditorAtIndex5"
-    },
-    {
-        "key": "cmd+6",
-        "command": "workbench.action.openEditorAtIndex6"
-    },
-    {
-        "key": "cmd+7",
-        "command": "workbench.action.openEditorAtIndex7"
-    },
-    {
-        "key": "cmd+8",
-        "command": "workbench.action.openEditorAtIndex8"
-    },
-    {
-        "key": "cmd+9",
-        "command": "workbench.action.openEditorAtIndex9"
-    },
-    {
-        "key": "cmd+t",
-        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
-        "when": "inFilesPicker && inQuickOpen"
-    },
-    {
-        "key": "cmd+p",
+        "key": "win+p",
         "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
         "when": "inFilesPicker && inQuickOpen"
     },
     {
-        "key": "ctrl+left",
-        "command": "workbench.action.previousEditor"
-    },
-    {
-        "key": "alt+cmd+left",
+        "key": "ctrl+shift+alt+win+8",
         "command": "-workbench.action.previousEditor"
     },
-    {
-        "key": "ctrl+shift+alt+cmd+8",
-        "command": "-workbench.action.previousEditor"
-    },
-    {
-        "key": "ctrl+right",
-        "command": "workbench.action.nextEditor"
-    },
-    {
+    { 
         "key": "ctrl+tab",
-        "command": "workbench.action.nextEditor"
+        "command": "workbench.action.navigateEditorGroups"
     },
     {
         "key": "ctrl+shift+tab",
         "command": "workbench.action.previousEditor"
     },
     {
-        "key": "alt+cmd+right",
-        "command": "-workbench.action.nextEditor"
+        "key": "alt+win+right",
+        "command": "workbench.action.nextEditor"
     },
     {
-        "key": "shift+cmd+t",
+        "key": "shift+win+t",
         "command": "workbench.action.showAllSymbols"
     },
     {
-        "key": "cmd+t",
+        "key": "ctrl+t",
         "command": "workbench.action.quickOpen"
     },
     {
-        "key": "cmd+p",
-        "command": "-workbench.action.quickOpen"
-    },
-    {
-        "key": "cmd+l",
+        "key": "ctrl+shift+l",
         "command": "workbench.action.gotoLine"
     },
     {
-        "key": "cmd+s",
+        "key": "ctrl+s",
         "command": "workbench.action.files.saveAll"
     },
+    {
+        "key": "ctrl+a",
+        "when": "editorTextFocus && !editorReadonly",
+        "command": "cursorHome"
+    },
+    {
+        "key": "ctrl+e",
+        "when": "editorTextFocus && !editorReadonly",
+        "command": "cursorEnd"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "cursorUp",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "cursorDown",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "cursorEnd"
+    },
+    {
+        "key": "win+a",
+        "command": "editor.action.selectAll"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "editor.action.previousMatchFindAction",
+        "when": "editorFocus"
+    },
+    { "key": "win+l",                "command": "center-editor-window.center",
+        "when": "editorTextFocus" },
+        {
+            "key": "ctrl+down",
+            "command": "spaceBlockJumper.moveDown",
+        },
+        {
+            "key": "ctrl+up",
+            "command": "spaceBlockJumper.moveUp",
+        },
+        {
+            "key": "ctrl+shift+down",
+            "command": "spaceBlockJumper.selectDown",
+        },
+        {
+            "key": "ctrl+shift+up",
+            "command": "spaceBlockJumper.selectUp",
+        },
+        {
+            "key": "ctrl+p",
+            "command": "workbench.action.quickOpenSelectPrevious",
+            "when": "inQuickOpen"
+        },
+        {
+            "key": "ctrl+n",
+            "command": "workbench.action.quickOpenSelectNext",
+            "when": "inQuickOpen",
+        },
+        {
+            "key": "ctrl+k",
+            "command": "editor.action.deleteLines",
+            "when": "textInputFocus",
+        },    
+
+        { "key": "ctrl+d",                "command": "editor.action.commentLine",
+            "when": "editorTextFocus && !editorReadonly" },
 ]
