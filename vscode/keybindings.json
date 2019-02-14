@@ -37,10 +37,6 @@
         "command": "workbench.action.gotoLine"
     },
     {
-        "key": "ctrl+s",
-        "command": "workbench.action.files.saveAll"
-    },
-    {
         "key": "ctrl+a",
         "when": "editorTextFocus && !editorReadonly",
         "command": "cursorHome"
@@ -164,16 +160,6 @@
     },
     {
         "key": "ctrl+f",
-        "command": "editor.action.smartSelect.expand",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+f",
-        "command": "cursorRight",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+s",
         "command": "cursorRight",
         "when": "textInputFocus"
     },
@@ -184,14 +170,67 @@
     },
     {
         "key": "ctrl+s",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "win+b",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+s",
         "command": "actions.find"
     },
     {
-        "key": "ctrl-x ctrl-s",
-        "command": "workbench.action.files.save"
+        "key": "alt+s",
+        "command": "workbench.action.files.saveAll"
     },
     {
         "key": "win+b",
         "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "cursorRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "cursorLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+f",
+        "command": "workbench.action.findInFiles"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "cursorEndSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "cursorHomeSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+e",
+        "command": "cursorHomeSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+e",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor",
     }
 ]
