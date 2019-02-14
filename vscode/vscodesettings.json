@@ -8,7 +8,7 @@
     "reason.codelens.enabled": false,
     "editor.fontLigatures": true,
     "editor.fontFamily": "Input Mono Narrow",
-    "workbench.colorTheme": "Night Owl",
+   "workbench.colorTheme": "Night Owl",
     "workbench.colorCustomizations": {
         "editorIndentGuide.activeBackground": "#f2f2f2"
     },
@@ -26,7 +26,7 @@
     "search.location": "panel",
     "git.confirmSync": false,
     "telemetry.enableTelemetry": false,
-    "window.menuBarVisibility": "hidden",
+    "window.menuBarVisibility": "toggle",
     "keyboard.dispatch": "keyCode",
     "scrolloff.scrolloff": 7,
     "workbench.statusBar.feedback.visible": false,
@@ -37,4 +37,10 @@
         "file:///home/gomes/src/dotfiles/vscode/custom.css"
     ],
     "vscode_custom_css.policy": true,
+    "workbench.statusBar.visible": true,
+    "go.enableCodeLens": {
+        "references": false,
+        "runtest": false
+    },
+    "go.formatTool": "gofmt"
 }
