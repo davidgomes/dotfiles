@@ -44,4 +44,5 @@
     },
     "go.formatTool": "gofmt",
     "editor.formatOnPaste": false,
+    "editor.trimAutoWhitespace": false
 }
