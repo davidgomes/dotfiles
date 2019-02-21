@@ -26,7 +26,7 @@
     "search.location": "panel",
     "git.confirmSync": false,
     "telemetry.enableTelemetry": false,
-    "window.menuBarVisibility": "toggle",
+    "window.menuBarVisibility": "hidden",
     "keyboard.dispatch": "keyCode",
     "scrolloff.scrolloff": 7,
     "workbench.statusBar.feedback.visible": false,
@@ -42,5 +42,6 @@
         "references": false,
         "runtest": false
     },
-    "go.formatTool": "gofmt"
+    "go.formatTool": "gofmt",
+    "editor.formatOnPaste": false,
 }
