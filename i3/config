@@ -10,6 +10,7 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
+set $alt Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -48,8 +49,8 @@ bindsym $mod+d exec dmenu_run
 
 bindsym $mod+Shift+l exec "i3lock-fancy -g -p -t ''"
 
-bindsym $mod+s exec "maim ~/Pictures/$(date +%F-%T).png"
-bindsym $mod+Shift+s exec "maim -s ~/Pictures/$(date +%F-%T).png"
+bindsym $mod+Shift+s exec "maim ~/Pictures/$(date +%Y%m%d_%H%M%S).png"
+bindsym $mod+$alt+s exec "maim -s ~/Pictures/$(date +%Y%m%d_%H%M%S).png"
 
 # change focus
 bindsym $mod+j focus left
@@ -174,6 +175,9 @@ exec "~/i3_startup.sh"
 bindsym XF86AudioRaiseVolume exec --no-startup-id "pamixer -i 10 --allow-boost; pkill -RTMIN+1 i3blocks"
 bindsym XF86AudioLowerVolume exec --no-startup-id "pamixer -d 10 --allow-boost; pkill -RTMIN+1 i3blocks"
 bindsym XF86AudioMute exec --no-startup-id "pamixer -t; pkill -RTMIN+1 i3blocks"
+bindsym $mod+$alt+p exec --no-startup-id "pamixer -i 10 --allow-boost; pkill -RTMIN+1 i3blocks"
+bindsym $mod+$alt+n exec --no-startup-id "pamixer -d 10 --allow-boost; pkill -RTMIN+1 i3blocks"
+bindsym $mod+$alt+m exec --no-startup-id "pamixer -t; pkill -RTMIN+1 i3blocks"
 
 bindsym XF86AudioMicMute exec --no-startup-id "if amixer get Capture | grep '\[off\]'; then amixer set Capture cap; else amixer set Capture nocap; fi"
 
