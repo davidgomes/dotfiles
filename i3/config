@@ -167,6 +167,12 @@ bar {
 
         bindsym button4 nop
         bindsym button5 nop
+        
+        colors {
+                #                 BORDER  BCKGRND TEXT    INDICATOR
+                focused_workspace #888888 #444444 #ffffff
+                active_workspace  #888888 #444444 #ffffff
+        }
 }
 
 exec "~/i3_startup.sh"
@@ -220,4 +226,3 @@ set $transparent   #00000000
 client.focused          #666666 #444444 #ffffff #666666
 client.focused_inactive #444444 #181818 #ffffff #444444
 client.unfocused        #444444 #181818 #dddddd #444444
-#client.urgent ...
