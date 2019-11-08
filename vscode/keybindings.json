@@ -287,4 +287,66 @@
         "command": "outline.focusUpHighlighted",
         "when": "outlineFiltered && outlineFocused"
     },
+    // {
+    //     "key": "escape+b",
+    //     "command": "cursorWordStartLeft",
+    //     "when": "textInputFocus"
+    // },
+    // {
+    //     "key": "escape+f",
+    //     "command": "cursorWordEndRight",
+    //     "when": "textInputFocus"
+    // },
+    {
+        "key": "ctrl+alt+b",
+        "command": "cursorWordStartLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "cursorWordEndRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "cursorWordEndRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "cursorWordEndRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "cursorWordStartLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "cursorWordStartLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "win+v",
+        "command": "textmarker.toggleHighlight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "win+shift+v",
+        "command": "textmarker.clearAllHighlight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
+    },
+    {
+        "key": "alt+down",
+        "command": "search.action.focusNextSearchResult"
+    },
+    {
+        "key": "alt+up",
+        "command": "search.action.focusPreviousSearchResult"
+    },
 ]

@@ -5,12 +5,12 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "editor.cursorStyle": "block",
-    "reason.codelens.enabled": false,
     "editor.fontLigatures": true,
     "editor.fontFamily": "Input Mono Narrow",
-   "workbench.colorTheme": "Night Owl",
+    "workbench.colorTheme": "Monokai++",
     "workbench.colorCustomizations": {
-        "editorIndentGuide.activeBackground": "#f2f2f2"
+        "editorIndentGuide.activeBackground": "#f2f2f2",
+        "statusBar.background": "#1c1c1c"
     },
     "window.titleBarStyle": "native",
     "explorer.openEditors.visible": 0,
@@ -19,17 +19,14 @@
     "workbench.activityBar.visible": false,
     "workbench.startupEditor": "newUntitledFile",
     "explorer.autoReveal": false,
-    "reason.diagnostics.tools": [
-        "bsb"
-    ],
-    "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
     "search.location": "panel",
     "git.confirmSync": false,
     "telemetry.enableTelemetry": false,
+    "textmarker.enableTelemetry": false,
+    "textmarker.hideStatusBarItems": true,
     "window.menuBarVisibility": "hidden",
     "keyboard.dispatch": "keyCode",
     "scrolloff.scrolloff": 7,
-    "workbench.statusBar.feedback.visible": false,
     "terminal.integrated.scrollback": 1000000000,
     "terminal.integrated.rendererType": "dom",
     "window.title": "${folderName} ${separator} ${activeEditorMedium} ${dirty} ${separator} ${appName}",
@@ -44,5 +41,15 @@
     },
     "go.formatTool": "gofmt",
     "editor.formatOnPaste": false,
-    "editor.trimAutoWhitespace": false
+    "editor.trimAutoWhitespace": false,
+    "editor.renderWhitespace": "all",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.editor.showTabs": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vscode_custom_css.statusbar": false,
+    "breadcrumbs.enabled": false,
+    "python.jediEnabled": false,
+    "cmake.configureOnOpen": false,
+    "java.configuration.checkProjectSettingsExclusions": false,
 }
