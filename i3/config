@@ -164,40 +164,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3blocks
         font pango:DejaVu Sans Mono 10
-	output eDP-1
-
-        bindsym button4 nop
-        bindsym button5 nop
-        
-        colors {
-                #                 BORDER  BCKGRND TEXT    INDICATOR
-                focused_workspace #888888 #444444 #ffffff
-                active_workspace  #888888 #444444 #ffffff
-        }
-}
-
-bar {
-        status_command i3blocks
-        font pango:DejaVu Sans Mono 10
-	output HDMI-1
-	output DP-1-1
-
-	tray_output primary
-
-        bindsym button4 nop
-        bindsym button5 nop
-        
-        colors {
-                #                 BORDER  BCKGRND TEXT    INDICATOR
-                focused_workspace #888888 #444444 #ffffff
-                active_workspace  #888888 #444444 #ffffff
-        }
-}
-
-bar {
-        font pango:DejaVu Sans Mono 10
-	output DP-2
-
 	tray_output primary
 
         bindsym button4 nop
@@ -261,3 +227,10 @@ set $transparent   #00000000
 client.focused          #666666 #444444 #ffffff #666666
 client.focused_inactive #444444 #181818 #ffffff #444444
 client.unfocused        #444444 #181818 #dddddd #444444
+
+workspace 1 output primary
+workspace 2 output primary
+workspace 3 output primary
+workspace 4 output primary
+workspace 5 output primary
+workspace 6 output primary
