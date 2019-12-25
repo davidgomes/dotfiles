@@ -1,6 +1,5 @@
 #!/bin/bash
 
-BRIGHTNESS=$(xrandr --verbose | grep -m 1 -i brightness | awk -F' ' '{ print $2 }')
-PERCENT=$(echo "scale=0; $BRIGHTNESS * 100 / 1" | bc)
+BRIGHTNESS=$(~/scripts/radlight q)
 
-echo "${PERCENT}%"
+echo "${BRIGHTNESS}%"

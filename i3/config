@@ -47,7 +47,7 @@ bindsym $mod+d exec dmenu_run
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
-bindsym $mod+Shift+l exec "i3lock-fancy -g -p -t ''"
+bindsym $mod+Shift+l exec "i3lock-fancy -g -p"
 
 bindsym $mod+Shift+s exec "maim ~/Pictures/$(date +%Y%m%d_%H%M%S).png"
 bindsym $mod+$alt+s exec "maim -s ~/Pictures/$(date +%Y%m%d_%H%M%S).png"
@@ -192,8 +192,8 @@ bindsym XF86AudioMicMute exec --no-startup-id "if amixer get Capture | grep '\[o
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
 # Brightness controls
-bindsym XF86MonBrightnessUp exec "~/bin/bright.sh -u; pkill -RTMIN+1 i3blocks"
-bindsym XF86MonBrightnessDown exec "~/bin/bright.sh -d; pkill -RTMIN+1 i3blocks"
+bindsym XF86MonBrightnessUp exec "~/scripts/radlight i 10; pkill -RTMIN+1 i3blocks"
+bindsym XF86MonBrightnessDown exec "~/scripts/radlight d 10; pkill -RTMIN+1 i3blocks"
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
