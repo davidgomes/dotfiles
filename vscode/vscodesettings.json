@@ -6,7 +6,8 @@
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "editor.cursorStyle": "block",
     "editor.fontLigatures": true,
-    "editor.fontFamily": "Input Mono Narrow",
+    "editor.fontSize": 15,
+    "editor.fontFamily": "Iosevka Term Medium",
     "workbench.colorTheme": "Monokai++",
     "workbench.colorCustomizations": {
         "editorIndentGuide.activeBackground": "#f2f2f2",
@@ -19,7 +20,6 @@
     "workbench.activityBar.visible": false,
     "workbench.startupEditor": "newUntitledFile",
     "explorer.autoReveal": false,
-    "search.location": "panel",
     "git.confirmSync": false,
     "telemetry.enableTelemetry": false,
     "textmarker.enableTelemetry": false,
@@ -29,6 +29,7 @@
     "scrolloff.scrolloff": 7,
     "terminal.integrated.scrollback": 1000000000,
     "terminal.integrated.rendererType": "dom",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
     "window.title": "${folderName} ${separator} ${activeEditorMedium} ${dirty} ${separator} ${appName}",
     "vscode_custom_css.imports": [
         "file:///home/gomes/src/dotfiles/vscode/custom.css"
