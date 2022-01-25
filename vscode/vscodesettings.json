@@ -1,19 +1,22 @@
 {
-    "window.zoomLevel": 1,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": false,
     "editor.minimap.enabled": false,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "editor.cursorStyle": "block",
     "editor.fontLigatures": true,
-    "editor.fontSize": 15,
-    "editor.fontFamily": "Iosevka Term Medium",
-    "workbench.colorTheme": "Monokai++",
+    "editor.fontSize": 19,
+    // "editor.fontFamily": "Input Mono",
+    // "editor.fontFamily": "Iosevka Term Medium",
+    // "editor.fontFamily": "Monospace",
+    "editor.fontFamily": "Jetbrains Mono",
+    // "editor.fontFamily": "GT America Mono",
     "workbench.colorCustomizations": {
         "editorIndentGuide.activeBackground": "#f2f2f2",
         "statusBar.background": "#1c1c1c"
     },
-    "window.titleBarStyle": "native",
+    "window.titleBarStyle": "custom",
     "explorer.openEditors.visible": 0,
     "javascript.validate.enable": false,
     // "javascript.nameSuggestions": false,
@@ -24,7 +27,6 @@
     "telemetry.enableTelemetry": false,
     "textmarker.enableTelemetry": false,
     "textmarker.hideStatusBarItems": true,
-    "window.menuBarVisibility": "hidden",
     "keyboard.dispatch": "keyCode",
     "scrolloff.scrolloff": 7,
     "terminal.integrated.scrollback": 1000000000,
@@ -53,4 +55,34 @@
     "python.jediEnabled": false,
     "cmake.configureOnOpen": false,
     "java.configuration.checkProjectSettingsExclusions": false,
+    "workbench.sideBar.location": "left",
+    "python.languageServer": "Default",
+    "customizeUI.font.regular": "Monospace",
+    "workbench.colorTheme": "Ayu Mirage",
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "go.buildOnSave": "off",
+    "go.toolsEnvVars": {
+        "GO111MODULE": "off"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "extensions.ignoreRecommendations": true,
+    "workbench.tree.indent": 15
 }
