@@ -29,12 +29,16 @@
         "command": "workbench.action.showAllSymbols"
     },
     {
-        "key": "ctrl+t",
+        "key": "win+t",
         "command": "workbench.action.quickOpen"
     },
     {
         "key": "ctrl+shift+l",
         "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "center-editor-window.center"
     },
     {
         "key": "ctrl+a",
@@ -116,7 +120,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "win+p",
+        "key": "alt+p",
         "command": "cursorMove",
         "args": {
             "to": "up",
@@ -126,7 +130,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "win+n",
+        "key": "alt+n",
         "command": "cursorMove",
         "args": {
             "to": "down",
@@ -136,7 +140,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "win+shift+n",
+        "key": "alt+shift+n",
         "command": "cursorDownSelect",
         "args": {
             "value": 10
@@ -144,7 +148,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+p",
+        "key": "alt+shift+p",
         "command": "cursorUpSelect",
         "when": "textInputFocus"
     },
@@ -184,6 +188,10 @@
     },
     {
         "key": "alt+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "win+s",
         "command": "workbench.action.files.saveAll"
     },
     {
@@ -328,12 +336,12 @@
         "when": "textInputFocus"
     },
     {
-        "key": "win+v",
+        "key": "alt+v",
         "command": "textmarker.toggleHighlight",
         "when": "textInputFocus"
     },
     {
-        "key": "win+shift+v",
+        "key": "alt+shift+v",
         "command": "textmarker.clearAllHighlight",
         "when": "textInputFocus"
     },
@@ -349,4 +357,40 @@
         "key": "alt+up",
         "command": "search.action.focusPreviousSearchResult"
     },
+    {
+        "key": "cmd+1",
+        "command": "workbench.action.openEditorAtIndex1"
+      },
+      {
+        "key": "cmd+2",
+        "command": "workbench.action.openEditorAtIndex2"
+      },
+      {
+        "key": "cmd+3",
+        "command": "workbench.action.openEditorAtIndex3"
+      },
+      {
+        "key": "cmd+4",
+        "command": "workbench.action.openEditorAtIndex4"
+      },
+      {
+        "key": "cmd+5",
+        "command": "workbench.action.openEditorAtIndex5"
+      },
+      {
+        "key": "cmd+6",
+        "command": "workbench.action.openEditorAtIndex6"
+      },
+      {
+        "key": "cmd+7",
+        "command": "workbench.action.openEditorAtIndex7"
+      },
+      {
+        "key": "cmd+8",
+        "command": "workbench.action.openEditorAtIndex8"
+      },
+      {
+        "key": "cmd+9",
+        "command": "workbench.action.openEditorAtIndex9"
+      },    
 ]

@@ -5,13 +5,15 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "editor.cursorStyle": "block",
-    "editor.fontLigatures": true,
+    "editor.fontLigatures": false,
     "editor.fontSize": 19,
     // "editor.fontFamily": "Input Mono",
     // "editor.fontFamily": "Iosevka Term Medium",
     // "editor.fontFamily": "Monospace",
-    "editor.fontFamily": "Jetbrains Mono",
+    // "editor.fontFamily": "Jetbrains Mono",
     // "editor.fontFamily": "GT America Mono",
+    "zenMode.fullScreen": false,
+    "editor.fontFamily": "MonoLisa Regular",
     "workbench.colorCustomizations": {
         "editorIndentGuide.activeBackground": "#f2f2f2",
         "statusBar.background": "#1c1c1c"
@@ -19,8 +21,6 @@
     "window.titleBarStyle": "custom",
     "explorer.openEditors.visible": 0,
     "javascript.validate.enable": false,
-    // "javascript.nameSuggestions": false,
-    "workbench.activityBar.visible": false,
     "workbench.startupEditor": "newUntitledFile",
     "explorer.autoReveal": false,
     "git.confirmSync": false,
@@ -47,7 +47,7 @@
     "editor.trimAutoWhitespace": false,
     "editor.renderWhitespace": "all",
     "editor.multiCursorModifier": "ctrlCmd",
-    "workbench.editor.showTabs": true,
+    "workbench.editor.showTabs": "multiple",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "vscode_custom_css.statusbar": false,
@@ -58,7 +58,6 @@
     "workbench.sideBar.location": "left",
     "python.languageServer": "Default",
     "customizeUI.font.regular": "Monospace",
-    "workbench.colorTheme": "Ayu Mirage",
     "mssql.connections": [
         {
             "server": "{{put-server-name-here}}",
@@ -84,5 +83,14 @@
     },
     "go.toolsManagement.autoUpdate": true,
     "extensions.ignoreRecommendations": true,
-    "workbench.tree.indent": 15
+    "workbench.tree.indent": 15,
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Ayu Mirage",
+    "prettier.tabWidth": 4,
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.activityBar.location": "hidden",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    }
 }
