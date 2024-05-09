@@ -295,16 +295,11 @@
         "command": "outline.focusUpHighlighted",
         "when": "outlineFiltered && outlineFocused"
     },
-    // {
-    //     "key": "escape+b",
-    //     "command": "cursorWordStartLeft",
-    //     "when": "textInputFocus"
-    // },
-    // {
-    //     "key": "escape+f",
-    //     "command": "cursorWordEndRight",
-    //     "when": "textInputFocus"
-    // },
+    {
+        "key": "ctrl+w",
+        "command": "deleteWordEndLeft",
+        "when": "textInputFocus"
+    }
     {
         "key": "ctrl+alt+b",
         "command": "cursorWordStartLeft",
@@ -392,5 +387,9 @@
       {
         "key": "cmd+9",
         "command": "workbench.action.openEditorAtIndex9"
-      },    
+      },
+      {
+        "key": "alt+tab",
+        "command": "workbench.action.navigateEditorGroups"
+      }
 ]

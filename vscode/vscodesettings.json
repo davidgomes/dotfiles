@@ -1,30 +1,18 @@
 {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": false,
     "editor.minimap.enabled": false,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "editor.cursorStyle": "block",
     "editor.fontLigatures": false,
     "editor.fontSize": 19,
-    // "editor.fontFamily": "Input Mono",
-    // "editor.fontFamily": "Iosevka Term Medium",
-    // "editor.fontFamily": "Monospace",
-    // "editor.fontFamily": "Jetbrains Mono",
-    // "editor.fontFamily": "GT America Mono",
+    "editor.fontFamily": "Jetbrains Mono",
     "zenMode.fullScreen": false,
-    "editor.fontFamily": "MonoLisa Regular",
-    "workbench.colorCustomizations": {
-        "editorIndentGuide.activeBackground": "#f2f2f2",
-        "statusBar.background": "#1c1c1c"
-    },
     "window.titleBarStyle": "custom",
     "explorer.openEditors.visible": 0,
     "javascript.validate.enable": false,
     "workbench.startupEditor": "newUntitledFile",
     "explorer.autoReveal": false,
     "git.confirmSync": false,
-    "telemetry.enableTelemetry": false,
     "textmarker.enableTelemetry": false,
     "textmarker.hideStatusBarItems": true,
     "keyboard.dispatch": "keyCode",
@@ -42,7 +30,6 @@
         "references": false,
         "runtest": false
     },
-    "go.formatTool": "gofmt",
     "editor.formatOnPaste": false,
     "editor.trimAutoWhitespace": false,
     "editor.renderWhitespace": "all",
@@ -92,5 +79,11 @@
     "editor.inlineSuggest.suppressSuggestions": true,
     "[rust]": {
         "editor.defaultFormatter": "rust-lang.rust-analyzer"
-    }
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
