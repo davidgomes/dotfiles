@@ -1,0 +1,52 @@
+\set QUIET 1
+
+\pset null '[NULL]'
+\x auto
+\timing
+\set paste
+
+\set HISTFILE ~/.psql_history- :DBNAME
+\set HISTCONTROL ignoredups
+\set COMP_KEYWORD_CASE lower
+
+\set PROMPT1 '%n@%/%R%#%x '
+\set PROMPT2 '[more] %R> '
+
+\pset linestyle unicode
+\pset border 2
+
+\set version 'select version();'
+\set extensions 'select * from pg_available_extensions;'
+
+\set long_running `cat ~/.psql/queries/long_running.sql`
+\set databases `cat ~/.psql/queries/databases.sql`
+\set hot_update_ratio `cat ~/.psql/queries/hot_update_ratio.sql`
+\set tables `cat ~/.psql/queries/tables.sql`
+\set activity `cat ~/.psql/queries/activity.sql`
+\set table_bloat_estimation `cat ~/.psql/queries/table_bloat_estimation.sql`
+\set btree_bloat_estimation `cat ~/.psql/queries/btree_bloat_estimation.sql`
+\set rare_indexes `cat ~/.psql/queries/rare_indexes.sql`
+\set redundant_indexes `cat ~/.psql/queries/redundant_indexes.sql`
+\set non_indexed_fks `cat ~/.psql/queries/non_indexed_fks.sql`
+\set invalid_indexes `cat ~/.psql/queries/invalid_indexes.sql`
+\set lock_trees `cat ~/.psql/queries/lock_trees.sql`
+\set lock_trees_detailed `cat ~/.psql/queries/lock_trees_detailed.sql`
+\set pg_stat_statements_top_total `cat ~/.psql/queries/pg_stat_statements_top_total.sql`
+\set pg_stat_statements_report `cat ~/.psql/queries/pg_stat_statements_report.sql`
+\set vacuum_activity `cat ~/.psql/queries/vacuum_activity.sql`
+\set autovacuum_progress_and_queue `cat ~/.psql/queries/autovacuum_progress_and_queue.sql`
+\set blockers_of_queries_alter_table `cat ~/.psql/queries/blockers_of_queries_alter_table.sql`
+\set blockers_of_queries_all `cat ~/.psql/queries/blockers_of_queries_all.sql`
+\set kill_autovacuums `cat ~/.psql/queries/kill_autovacuums.sql`
+\set table_ages `cat ~/.psql/queries/table_ages.sql`
+\set connection_counts_by_application `cat ~/.psql/queries/connection_counts_by_application.sql`
+\set connection_counts_by_state `cat ~/.psql/queries/connection_counts_by_state.sql`
+\set index_monitoring `cat ~/.psql/queries/index_monitoring.sql`
+\set analyze_vacuum_stats `cat ~/.psql/queries/analyze_vacuum_stats.sql`
+\set cache_hit_ratio_tables `cat ~/.psql/queries/cache_hit_ratio_tables.sql`
+\set cache_hit_ratio_indices `cat ~/.psql/queries/cache_hit_ratio_indices.sql`
+\set io_client_fsync_impact `cat ~/.psql/queries/io_client_fsync_impact.sql`
+\set io_vacuum_impact `cat ~/.psql/queries/io_vacuum_impact.sql`
+\set io_cache_hit_ratio `cat ~/.psql/queries/io_cache_hit_ratio.sql`
+
+\unset QUIET

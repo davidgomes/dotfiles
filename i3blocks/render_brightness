@@ -1,5 +1,0 @@
-#!/bin/bash
-
-BRIGHTNESS=$(~/scripts/radlight q)
-
-echo "${BRIGHTNESS}%"
