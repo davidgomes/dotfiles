@@ -5,10 +5,9 @@
     "editor.cursorStyle": "block",
     "editor.fontLigatures": false,
     "editor.fontSize": 19,
-    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontFamily": "CommitMono",
     "zenMode.fullScreen": false,
     "window.titleBarStyle": "custom",
-    "explorer.openEditors.visible": 0,
     "javascript.validate.enable": false,
     "workbench.startupEditor": "newUntitledFile",
     "explorer.autoReveal": false,
@@ -72,7 +71,7 @@
     "extensions.ignoreRecommendations": true,
     "workbench.tree.indent": 15,
     "window.zoomLevel": -1,
-    "workbench.colorTheme": "Ayu Mirage",
+    "workbench.colorTheme": "Pastel Pro",
     "prettier.tabWidth": 4,
     "git.openRepositoryInParentFolders": "never",
     "workbench.activityBar.location": "hidden",
@@ -81,9 +80,10 @@
         "editor.defaultFormatter": "rust-lang.rust-analyzer"
     },
     "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
+    "explorer.confirmDelete": false,
 }

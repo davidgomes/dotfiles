@@ -120,7 +120,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "alt+p",
+        "key": "win+p",
         "command": "cursorMove",
         "args": {
             "to": "up",
@@ -130,7 +130,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "alt+n",
+        "key": "cmd+n",
         "command": "cursorMove",
         "args": {
             "to": "down",
@@ -140,15 +140,45 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "alt+shift+n",
-        "command": "cursorDownSelect",
+        "key": "cmd+shift+n",
+        "command": "runCommands",
         "args": {
-            "value": 10
+            "commands": [
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+            ]
         },
         "when": "textInputFocus"
     },
     {
-        "key": "alt+shift+p",
+        "key": "win+shift+p",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+            ]
+        },
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+p",
         "command": "cursorUpSelect",
         "when": "textInputFocus"
     },

@@ -1,12 +1,5 @@
-dbaeumer.vscode-eslint
-faceair.ayu-one-dark
-gaearon.subliminal
-gerane.Theme-Bliss
 kaiwood.center-editor-window
-kumar-harsh.graphql-for-vscode
-ms-python.python
-ms-vscode.cpptools
-ms-vscode.Go
 patrys.vscode-code-outline
-teabyii.ayu
-waderyan.gitblame
+louisyoung.pastel-pro
+sourcegraph.cody-ai
+tickleforce.scrolloff
