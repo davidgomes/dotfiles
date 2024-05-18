@@ -12,46 +12,20 @@
     "workbench.startupEditor": "newUntitledFile",
     "explorer.autoReveal": false,
     "git.confirmSync": false,
-    "textmarker.enableTelemetry": false,
-    "textmarker.hideStatusBarItems": true,
     "keyboard.dispatch": "keyCode",
     "scrolloff.scrolloff": 7,
     "terminal.integrated.scrollback": 1000000000,
-    "terminal.integrated.rendererType": "dom",
     "typescript.preferences.importModuleSpecifier": "non-relative",
     "window.title": "${folderName} ${separator} ${activeEditorMedium} ${dirty} ${separator} ${appName}",
-    "vscode_custom_css.imports": [
-        "file:///home/gomes/src/dotfiles/vscode/custom.css"
-    ],
-    "vscode_custom_css.policy": true,
-    "workbench.statusBar.visible": true,
-    "go.enableCodeLens": {
-        "references": false,
-        "runtest": false
-    },
+    "workbench.statusBar.visible": false,
     "editor.formatOnPaste": false,
     "editor.trimAutoWhitespace": false,
     "editor.renderWhitespace": "all",
     "editor.multiCursorModifier": "ctrlCmd",
     "workbench.editor.showTabs": "multiple",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "vscode_custom_css.statusbar": false,
     "breadcrumbs.enabled": false,
-    "python.jediEnabled": false,
-    "cmake.configureOnOpen": false,
-    "java.configuration.checkProjectSettingsExclusions": false,
     "workbench.sideBar.location": "left",
-    "python.languageServer": "Default",
-    "customizeUI.font.regular": "Monospace",
-    "mssql.connections": [
-        {
-            "server": "{{put-server-name-here}}",
-            "database": "{{put-database-name-here}}",
-            "user": "{{put-username-here}}",
-            "password": ""
-        }
-    ],
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
@@ -62,28 +36,18 @@
     },
     "security.workspace.trust.banner": "never",
     "security.workspace.trust.enabled": false,
-    "window.menuBarVisibility": "toggle",
-    "go.buildOnSave": "off",
-    "go.toolsEnvVars": {
-        "GO111MODULE": "off"
-    },
-    "go.toolsManagement.autoUpdate": true,
     "extensions.ignoreRecommendations": true,
     "workbench.tree.indent": 15,
     "window.zoomLevel": -1,
     "workbench.colorTheme": "Pastel Pro",
-    "prettier.tabWidth": 4,
     "git.openRepositoryInParentFolders": "never",
     "workbench.activityBar.location": "hidden",
     "editor.inlineSuggest.suppressSuggestions": true,
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer"
-    },
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[typescriptreact]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "explorer.confirmDelete": false,
+    "explorer.confirmDelete": false
 }
