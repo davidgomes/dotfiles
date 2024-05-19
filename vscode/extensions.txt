@@ -1,5 +1,5 @@
 kaiwood.center-editor-window
-patrys.vscode-code-outline
 louisyoung.pastel-pro
+ryu1kn.text-marker
 sourcegraph.cody-ai
 tickleforce.scrolloff
