@@ -43,11 +43,21 @@
     "git.openRepositoryInParentFolders": "never",
     "workbench.activityBar.location": "hidden",
     "editor.inlineSuggest.suppressSuggestions": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
     "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#282C34",
+        "list.hoverBackground": "#555555",
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
