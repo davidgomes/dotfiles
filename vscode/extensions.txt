@@ -4,3 +4,5 @@ ryu1kn.text-marker
 sourcegraph.cody-ai
 tickleforce.scrolloff
 esbenp.prettier-vscode
+jmfirth.vsc-space-block-jumper
+dimritium.pastel-underwater-contrast

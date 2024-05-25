@@ -19,6 +19,7 @@
     "window.title": "${folderName} ${separator} ${activeEditorMedium} ${dirty} ${separator} ${appName}",
     "workbench.statusBar.visible": false,
     "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
     "editor.trimAutoWhitespace": false,
     "editor.renderWhitespace": "all",
     "editor.multiCursorModifier": "ctrlCmd",
@@ -27,37 +28,39 @@
     "breadcrumbs.enabled": false,
     "workbench.sideBar.location": "left",
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
+      "*.ipynb": "jupyter-notebook"
     },
     "security.workspace.trust.untrustedFiles": "open",
     "notebook.cellToolbarLocation": {
-        "default": "right",
-        "jupyter-notebook": "left"
+      "default": "right",
+      "jupyter-notebook": "left"
     },
     "security.workspace.trust.banner": "never",
     "security.workspace.trust.enabled": false,
     "extensions.ignoreRecommendations": true,
     "workbench.tree.indent": 15,
     "window.zoomLevel": -1,
-    "workbench.colorTheme": "Pastel Pro",
+    "workbench.colorTheme": "pastel underwater",
     "git.openRepositoryInParentFolders": "never",
     "workbench.activityBar.location": "hidden",
     "editor.inlineSuggest.suppressSuggestions": true,
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "explorer.confirmDelete": false,
     "workbench.colorCustomizations": {
-        "sideBar.background": "#282C34",
-        "list.hoverBackground": "#555555",
+      // "sideBar.background": "#282C34",
+      "list.hoverBackground": "#555555"
     },
     "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
-}
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDragAndDrop": false
+  }
+  
