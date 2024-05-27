@@ -62,4 +62,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "explorer.confirmDragAndDrop": false
+  "explorer.sortOrder": "filesFirst"
 }
