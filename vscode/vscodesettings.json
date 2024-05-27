@@ -40,7 +40,8 @@
   "extensions.ignoreRecommendations": true,
   "workbench.tree.indent": 15,
   "window.zoomLevel": -1,
-  "workbench.colorTheme": "pastel underwater",
+  // "workbench.colorTheme": "pastel underwater",
+  "workbench.colorTheme": "Pastel Pro",
   "git.openRepositoryInParentFolders": "never",
   "workbench.activityBar.location": "hidden",
   "editor.inlineSuggest.suppressSuggestions": true,
@@ -55,12 +56,14 @@
   },
   "explorer.confirmDelete": false,
   "workbench.colorCustomizations": {
-    // "sideBar.background": "#282C34",
-    "list.hoverBackground": "#555555"
+    "sideBar.background": "#282C34",
+    "list.hoverBackground": "#555555",
+    // RGBA (Alpha = 0, so no focus border)
+    "focusBorder": "#00000000"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
   "explorer.sortOrder": "filesFirst"
 }
