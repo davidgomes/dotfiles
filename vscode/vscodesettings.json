@@ -4,13 +4,15 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "editor.cursorStyle": "block",
   "editor.fontLigatures": false,
-  "editor.fontSize": 19,
-  "editor.fontFamily": "CommitMono",
+  "editor.fontSize": 23,
+  // "editor.fontFamily": "CommitMono",
+  "editor.fontFamily": "Operator Mono",
   "zenMode.fullScreen": false,
   "window.titleBarStyle": "custom",
   "javascript.validate.enable": false,
   "workbench.startupEditor": "newUntitledFile",
   "explorer.autoReveal": false,
+  "editor.wordWrap": "on",
   "git.confirmSync": false,
   "keyboard.dispatch": "keyCode",
   "scrolloff.scrolloff": 7,
@@ -65,5 +67,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "explorer.confirmDragAndDrop": false,
-  "explorer.sortOrder": "filesFirst"
+  "explorer.sortOrder": "filesFirst",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
