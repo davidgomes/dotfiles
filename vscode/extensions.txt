@@ -6,3 +6,4 @@ tickleforce.scrolloff
 esbenp.prettier-vscode
 jmfirth.vsc-space-block-jumper
 dimritium.pastel-underwater-contrast
+waderyan.gitblame
