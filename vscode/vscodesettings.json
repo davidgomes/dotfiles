@@ -10,7 +10,6 @@
   "zenMode.fullScreen": false,
   "window.titleBarStyle": "custom",
   "javascript.validate.enable": false,
-  "workbench.startupEditor": "newUntitledFile",
   "explorer.autoReveal": false,
   "editor.wordWrap": "on",
   "git.confirmSync": false,
@@ -70,5 +69,6 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.newWindowDimensions": "maximized"
+  "window.newWindowDimensions": "maximized",
+  "workbench.startupEditor": "none"
 }
