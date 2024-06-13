@@ -5,8 +5,8 @@
   "editor.cursorStyle": "block",
   "editor.fontLigatures": false,
   "editor.fontSize": 23,
-  // "editor.fontFamily": "CommitMono",
-  "editor.fontFamily": "Operator Mono",
+  "editor.fontFamily": "CommitMono",
+  // "editor.fontFamily": "Operator Mono",
   "zenMode.fullScreen": false,
   "window.titleBarStyle": "custom",
   "javascript.validate.enable": false,
@@ -19,7 +19,6 @@
   "terminal.integrated.scrollback": 1000000000,
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "window.title": "${folderName} ${separator} ${activeEditorMedium} ${dirty} ${separator} ${appName}",
-  "workbench.statusBar.visible": false,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
   "editor.trimAutoWhitespace": false,
@@ -45,7 +44,7 @@
   // "workbench.colorTheme": "pastel underwater",
   "workbench.colorTheme": "Pastel Pro",
   "git.openRepositoryInParentFolders": "never",
-  "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.location": "bottom",
   "editor.inlineSuggest.suppressSuggestions": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -70,5 +69,6 @@
   "explorer.sortOrder": "filesFirst",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "window.newWindowDimensions": "maximized"
 }
