@@ -5,28 +5,12 @@
     "command": "workbench.action.showCommands"
   },
   {
-    "key": "ctrl+shift+alt+win+8",
-    "command": "-workbench.action.previousEditor"
-  },
-  {
     "key": "ctrl+tab",
     "command": "workbench.action.nextEditor"
   },
   {
-    "key": "win+tab",
-    "command": "workbench.action.navigateEditorGroups"
-  },
-  {
     "key": "ctrl+shift+tab",
     "command": "workbench.action.previousEditor"
-  },
-  {
-    "key": "alt+win+right",
-    "command": "workbench.action.nextEditor"
-  },
-  {
-    "key": "win+shift+t",
-    "command": "workbench.action.openPreviousEditor"
   },
   {
     "key": "win+t",
@@ -200,11 +184,6 @@
   {
     "key": "ctrl+b",
     "command": "cursorLeft",
-    "when": "textInputFocus"
-  },
-  {
-    "key": "ctrl+s",
-    "command": "cursorRight",
     "when": "textInputFocus"
   },
   {

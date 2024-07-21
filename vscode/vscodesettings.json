@@ -70,5 +70,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "window.newWindowDimensions": "maximized",
+  "cody.commandHints.enabled": false,
+  "markdown.preview.fontSize": 25,
   "workbench.startupEditor": "none"
 }
