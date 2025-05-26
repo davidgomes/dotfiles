@@ -400,5 +400,9 @@
   {
     "key": "alt+tab",
     "command": "workbench.action.navigateEditorGroups"
+  },
+  {
+    "key": "cmd+i",
+    "command": "composerMode.agent"
   }
 ]
