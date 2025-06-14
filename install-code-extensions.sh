@@ -15,7 +15,7 @@ fi
 while IFS= read -r extension || [[ -n "$extension" ]]; do
   if [[ -n "$extension" && ! "$extension" =~ ^# ]]; then
     echo "Installing extension: $extension"
-    code --install-extension "$extension"
+    cursor --install-extension "$extension"
   fi
 done < "$EXTENSIONS_FILE"
 
