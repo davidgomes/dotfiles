@@ -404,5 +404,13 @@
   {
     "key": "cmd+i",
     "command": "composerMode.agent"
+  },
+  {
+    "key": "cmd+shift+k",
+    "command": "aichat.insertselectionintochat"
+  },
+  {
+    "key": "cmd+shift+m",
+    "command": "aichat.newchataction"
   }
 ]
