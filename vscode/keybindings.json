@@ -5,12 +5,28 @@
     "command": "workbench.action.showCommands"
   },
   {
+    "key": "ctrl+shift+alt+win+8",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
     "key": "ctrl+tab",
     "command": "workbench.action.nextEditor"
   },
   {
+    "key": "win+tab",
+    "command": "workbench.action.navigateEditorGroups"
+  },
+  {
     "key": "ctrl+shift+tab",
     "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "alt+win+right",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "shift+win+t",
+    "command": "workbench.action.showAllSymbols"
   },
   {
     "key": "win+t",
@@ -25,16 +41,6 @@
     "command": "center-editor-window.center"
   },
   {
-    "key": "ctrl+a",
-    "when": "editorTextFocus && !editorReadonly",
-    "command": "cursorHome"
-  },
-  {
-    "key": "ctrl+e",
-    "when": "editorTextFocus && !editorReadonly",
-    "command": "cursorEnd"
-  },
-  {
     "key": "ctrl+p",
     "command": "cursorUp",
     "when": "editorFocus"
@@ -43,10 +49,6 @@
     "key": "ctrl+n",
     "command": "cursorDown",
     "when": "editorFocus"
-  },
-  {
-    "key": "ctrl+e",
-    "command": "cursorEnd"
   },
   {
     "key": "win+a",
@@ -400,6 +402,10 @@
   {
     "key": "alt+tab",
     "command": "workbench.action.navigateEditorGroups"
+  },
+  {
+    "key": "cmd+e",
+    "command": "composerMode.background"
   },
   {
     "key": "cmd+i",
