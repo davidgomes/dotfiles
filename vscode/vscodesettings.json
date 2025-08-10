@@ -4,9 +4,8 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "editor.cursorStyle": "block",
   "editor.fontLigatures": false,
-  "editor.fontSize": 19,
-  // "editor.fontFamily": "Iosevka SS04 Light",
-  // "editor.fontFamily": "Cascadia Mono Light",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Berkeley Mono Light",
   "zenMode.fullScreen": false,
   "window.titleBarStyle": "custom",
   "javascript.validate.enable": false,
@@ -16,7 +15,6 @@
   "keyboard.dispatch": "keyCode",
   "scrolloff.scrolloff": 7,
   "terminal.integrated.scrollback": 1000000000,
-  "terminal.integrated.fontSize": 20,
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "window.title": "${folderName} ${separator} ${activeEditorMedium} ${dirty} ${separator} ${appName}",
   "editor.formatOnPaste": false,
@@ -27,50 +25,50 @@
   "workbench.editor.showTabs": "multiple",
   "editor.suggestSelection": "first",
   "breadcrumbs.enabled": false,
+  "workbench.sideBar.location": "left",
   "workbench.editorAssociations": {
-      "*.ipynb": "jupyter-notebook"
+    "*.ipynb": "jupyter-notebook"
   },
   "security.workspace.trust.untrustedFiles": "open",
   "notebook.cellToolbarLocation": {
-      "default": "right",
-      "jupyter-notebook": "left"
+    "default": "right",
+    "jupyter-notebook": "left"
   },
   "security.workspace.trust.banner": "never",
   "security.workspace.trust.enabled": false,
   "extensions.ignoreRecommendations": true,
   "workbench.tree.indent": 15,
-  "window.zoomLevel": -0.25,
+  "window.zoomLevel": -1,
   "git.openRepositoryInParentFolders": "never",
   "workbench.activityBar.location": "bottom",
   "editor.inlineSuggest.suppressSuggestions": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "explorer.confirmDelete": false,
   "workbench.colorCustomizations": {
-      "sideBar.background": "#282C34",
-      "list.hoverBackground": "#555555",
-      "focusBorder": "#00000000"
+    "sideBar.background": "#282C34",
+    "list.hoverBackground": "#555555",
+    "focusBorder": "#00000000"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "explorer.confirmDragAndDrop": false,
   "explorer.sortOrder": "filesFirst",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "window.newWindowDimensions": "maximized",
-  "cody.commandHints.enabled": false,
-  "markdown.preview.fontSize": 25,
   "workbench.startupEditor": "none",
-  "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.editor.empty.hint": "hidden",
-  "go.toolsManagement.autoUpdate": true,
-  "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "zenMode.showTabs": "single",
-  "cody.chat.defaultLocation": "sidebar",
-  "[python]": {
-      "editor.defaultFormatter": "ms-python.black-formatter"
-  },
-  "chat.commandCenter.enabled": false,
-  "workbench.navigationControl.enabled": false,
-  "window.commandCenter": false,
-  "workbench.colorTheme": "Dracula Pro Edition",
-  "haskell.manageHLS": "GHCup"
+  "workbench.colorTheme": "Pastel Pro",
+  "git.autofetch": true,
+  "cursor.cpp.disabledLanguages": ["markdown"],
+  "custom-ui-style.font.sansSerif": "Berkeley Mono Medium"
 }

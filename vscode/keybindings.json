@@ -418,5 +418,9 @@
   {
     "key": "cmd+shift+m",
     "command": "aichat.newchataction"
+  },
+  {
+    "key": "cmd+shift+t",
+    "command": "workbench.action.reopenClosedEditor"
   }
 ]
