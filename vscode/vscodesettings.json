@@ -15,6 +15,7 @@
   "keyboard.dispatch": "keyCode",
   "scrolloff.scrolloff": 7,
   "terminal.integrated.scrollback": 1000000000,
+  "terminal.integrated.fontSize": 15,
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "window.title": "${folderName} ${separator} ${activeEditorMedium} ${dirty} ${separator} ${appName}",
   "editor.formatOnPaste": false,
@@ -55,7 +56,15 @@
   "workbench.colorCustomizations": {
     "sideBar.background": "#282C34",
     "list.hoverBackground": "#555555",
-    "focusBorder": "#00000000"
+    "focusBorder": "#00000000",
+    "editorGroupHeader.tabsBackground": "#282C34",
+    "tab.border": "#00000000",
+    "tab.activeBorder": "#00000000",
+    "tab.unfocusedActiveBorder": "#00000000",
+    "tab.activeBorderTop": "#00000000",
+    "scrollbar.shadow": "#00000000",
+    "widget.shadow": "#00000000",
+    "tab.inactiveBackground": "#282C34",
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -70,5 +79,5 @@
   "workbench.colorTheme": "Pastel Pro",
   "git.autofetch": true,
   "cursor.cpp.disabledLanguages": ["markdown"],
-  "custom-ui-style.font.sansSerif": "Berkeley Mono Medium"
+  "custom-ui-style.font.sansSerif": "Berkeley Mono Medium",
 }
