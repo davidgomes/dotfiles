@@ -1,81 +1,181 @@
 {
-  "window.commandCenter": true,
-  "editor.minimap.enabled": false,
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "editor.cursorStyle": "block",
-  "editor.fontLigatures": false,
-  "editor.fontSize": 15,
-  "editor.fontFamily": "Berkeley Mono",
-  "zenMode.fullScreen": false,
-  "window.titleBarStyle": "custom",
-  "javascript.validate.enable": false,
-  "explorer.autoReveal": false,
-  "editor.wordWrap": "on",
-  "git.confirmSync": false,
-  "keyboard.dispatch": "keyCode",
-  "scrolloff.scrolloff": 7,
-  "terminal.integrated.scrollback": 1000000000,
-  "terminal.integrated.fontSize": 15,
-  "typescript.preferences.importModuleSpecifier": "non-relative",
-  "window.title": "${folderName} ${separator} ${activeEditorMedium} ${dirty} ${separator} ${appName}",
-  "editor.formatOnPaste": false,
-  "editor.formatOnSave": false,
-  "editor.trimAutoWhitespace": false,
-  "editor.renderWhitespace": "all",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "workbench.editor.showTabs": "multiple",
-  "editor.suggestSelection": "first",
-  "breadcrumbs.enabled": false,
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook"
-  },
-  "security.workspace.trust.untrustedFiles": "open",
-  "notebook.cellToolbarLocation": {
-    "default": "right",
-    "jupyter-notebook": "left"
-  },
-  "security.workspace.trust.banner": "never",
-  "security.workspace.trust.enabled": false,
-  "extensions.ignoreRecommendations": true,
-  "workbench.tree.indent": 15,
-  "window.zoomLevel": -1,
-  "git.openRepositoryInParentFolders": "never",
-  "workbench.activityBar.location": "bottom",
-  "editor.inlineSuggest.suppressSuggestions": true,
-  "explorer.confirmDelete": false,
-  "workbench.colorCustomizations": {
-    "sideBar.background": "#282C34",
-    "list.hoverBackground": "#555555",
-    "focusBorder": "#00000000",
-    "editorGroupHeader.tabsBackground": "#282C34",
-    "tab.border": "#00000000",
-    "tab.activeBorder": "#00000000",
-    "tab.unfocusedActiveBorder": "#00000000",
-    "tab.activeBorderTop": "#00000000",
-    "scrollbar.shadow": "#00000000",
-    "widget.shadow": "#00000000",
-    "tab.inactiveBackground": "#282C34",
-    "statusBar.background": "#282C34"
-  },
-  "explorer.confirmDragAndDrop": false,
-  "explorer.sortOrder": "filesFirst",
-  "window.newWindowDimensions": "maximized",
-  "workbench.startupEditor": "none",
-  "git.autofetch": true,
-  "cursor.cpp.disabledLanguages": ["markdown"],
-  "custom-ui-style.font.sansSerif": "Berkeley Mono",
-  "workbench.colorTheme": "Pastel Pro",
-  "chatgpt.apiBase": "",
-  "cursor.composer.shouldChimeAfterChatFinishes": true,
-  "cursor.startup.launchAtLogin": true,
-  "cursor.enable_agent_window_setting": true,
-  "githubPullRequests.pullBranch": "never",
-  "cursor.enable_git_worktrees_setting": true,
-  "workbench.sideBar.location": "right",
-  "git.blame.statusBarItem.enabled": true,
-  "cursor.general.disableHttp2": true,
-  "update.releaseTrack": "dev",
-  "update.mode": "silentlyApplyOnQuit",
-  "cursor.worktreeMaxCount": 100
+	"editor.insertSpaces": false,
+	"files.trimTrailingWhitespace": true,
+	"files.exclude": {
+		".git": true,
+		".build": true,
+		".profile-oss": true,
+		"**/.DS_Store": true,
+		".vscode-test": true,
+		"cli/target": true,
+		"build/**/*.js.map": true,
+		"build/**/*.js": {
+			"when": "$(basename).ts"
+		}
+	},
+	"files.associations": {
+		"cglicenses.json": "jsonc",
+		"*.tst": "typescript"
+	},
+	"search.exclude": {
+		"**/node_modules": true,
+		"cli/target/**": true,
+		".build/**": true,
+		"out/**": true,
+		"out-build/**": true,
+		"out-vscode/**": true,
+		"i18n/**": true,
+		"extensions/**/dist/**": true,
+		"extensions/**/out/**": true,
+		"test/smoke/out/**": true,
+		"test/automation/out/**": true,
+		"test/integration/browser/out/**": true,
+		"src/vs/base/test/common/filters.perf.data.js": true,
+		"src/vs/base/test/node/uri.perf.data.txt": true,
+		"src/vs/workbench/api/test/browser/extHostDocumentData.test.perf-data.ts": true,
+		"src/vs/base/test/node/uri.test.data.txt": true,
+		"src/vs/editor/test/node/diffing/fixtures/**": true,
+		"build/loader.min": true
+	},
+	"files.readonlyInclude": {
+		"**/node_modules/**/*.*": true,
+		"**/yarn.lock": true,
+		"**/package-lock.json": true,
+		"**/Cargo.lock": true,
+		"build/**/*.js": true,
+		"out/**": true,
+		"out-build/**": true,
+		"out-vscode/**": true,
+		"out-vscode-reh/**": true,
+		"extensions/**/dist/**": true,
+		"extensions/**/out/**": true,
+		"extensions/terminal-suggest/src/completions/upstream/**": true,
+		"test/smoke/out/**": true,
+		"test/automation/out/**": true,
+		"test/integration/browser/out/**": true
+	},
+	"files.readonlyExclude": {
+		"build/builtin/*.js": true,
+		"build/monaco/*.js": true,
+		"build/npm/*.js": true,
+		"build/*.js": true
+	},
+	"lcov.path": [
+		"./.build/coverage/lcov.info",
+		"./.build/coverage-single/lcov.info"
+	],
+	"lcov.watch": [
+		{
+			"pattern": "**/*.test.js",
+			"command": "${workspaceFolder}/scripts/test.sh --coverage --run ${file}",
+			"windows": {
+				"command": "${workspaceFolder}\\scripts\\test.bat --coverage --run ${file}"
+			}
+		}
+	],
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"npm.exclude": "**/extensions/**",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"emmet.excludeLanguages": [],
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"typescript.preferences.quoteStyle": "single",
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+	"typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+	"typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+	"typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+	"json.schemas": [
+		{
+			"fileMatch": ["cgmanifest.json"],
+			"url": "https://json.schemastore.org/component-detection-manifest.json"
+		},
+		{
+			"fileMatch": ["cglicenses.json"],
+			"url": "./.vscode/cglicenses.schema.json"
+		}
+	],
+	"git.ignoreLimitWarning": true,
+	"git.branchProtection": ["main", "distro", "release/*"],
+	"chatbotextension.repoName": "vscode_func",
+	"git.branchProtectionPrompt": "alwaysCommitToNewBranch",
+	"git.branchRandomName.enable": true,
+	"git.pullBeforeCheckout": true,
+	"git.mergeEditor": true,
+	"remote.extensionKind": {
+		"msjsdiag.debugger-for-chrome": "workspace"
+	},
+	"gulp.autoDetect": "off",
+	"files.insertFinalNewline": true,
+	"[plaintext]": {
+		"files.insertFinalNewline": false
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.formatOnSave": true
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.formatOnSave": true
+	},
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer",
+		"editor.formatOnSave": true
+	},
+	"rust-analyzer.linkedProjects": ["cli/Cargo.toml"],
+	"typescript.tsc.autoDetect": "off",
+	"testing.autoRun.mode": "rerun",
+	"conventionalCommits.scopes": [
+		"tree",
+		"scm",
+		"grid",
+		"splitview",
+		"table",
+		"list",
+		"git",
+		"sash"
+	],
+	"githubPullRequests.experimental.createView": true,
+	"debug.javascript.terminalOptions": {
+		"outFiles": [
+			"${workspaceFolder}/out/**/*.js",
+			"${workspaceFolder}/build/**/*.js"
+		]
+	},
+	"extension-test-runner.debugOptions": {
+		"outFiles": ["${workspaceFolder}/extensions/*/out/**/*.js"]
+	},
+	"githubPullRequests.assignCreated": "${user}",
+	"githubPullRequests.defaultMergeMethod": "squash",
+	"githubPullRequests.ignoredPullRequestBranches": ["main"],
+	// "application.experimental.rendererProfiling": true,
+	"editor.experimental.asyncTokenization": true,
+	"editor.experimental.asyncTokenizationVerification": true,
+	"terminal.integrated.suggest.enabled": true,
+	"typescript.preferences.autoImportFileExcludePatterns": [
+		"@xterm/xterm",
+		"@xterm/headless",
+		"node-pty",
+		"vscode-notebook-renderer",
+		"src/vs/workbench/workbench.web.main.internal.ts"
+	],
+	"[github-issues]": {
+		"editor.wordWrap": "on"
+	},
+	"css.format.spaceAroundSelectorSeparator": true,
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"chat.commandCenter.enabled": true,
+	"eslint.useFlatConfig": true,
+	"editor.occurrencesHighlightDelay": 0,
+	"typescript.experimental.expandableHover": true,
+	"git.diagnosticsCommitHook.Enabled": true,
+	"git.diagnosticsCommitHook.Sources": {
+		"*": "error",
+		"ts": "warning",
+		"eslint": "warning"
+	}
 }
