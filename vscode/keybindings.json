@@ -1,4 +1,3 @@
-// Place your key bindings in this file to overwrite the defaults
 [
   {
     "key": "win+y",
@@ -189,11 +188,6 @@
     "when": "textInputFocus"
   },
   {
-    "key": "win+b",
-    "command": "cursorLeft",
-    "when": "textInputFocus"
-  },
-  {
     "key": "ctrl+s",
     "command": "actions.find"
   },
@@ -207,7 +201,7 @@
   },
   {
     "key": "win+b",
-    "command": "workbench.action.toggleSidebarVisibility"
+    "command": "workbench.action.toggleUnifiedSidebar"
   },
   {
     "key": "ctrl+shift+f",
@@ -404,10 +398,6 @@
     "command": "workbench.action.navigateEditorGroups"
   },
   {
-    "key": "cmd+e",
-    "command": "composerMode.background"
-  },
-  {
     "key": "cmd+i",
     "command": "composerMode.agent"
   },
@@ -426,5 +416,21 @@
   {
     "key": "cmd+shift+l",
     "command": "aichat.newchataction"
+  },
+  {
+    "key": "cmd+b",
+    "command": "workbench.action.toggleUnifiedSidebar"
+  },
+  {
+    "key": "cmd+shift+b",
+    "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "cmd+[",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+e",
+    "command": "noop"
   }
 ]
